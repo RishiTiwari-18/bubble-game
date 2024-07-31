@@ -61,6 +61,11 @@ html, body{
     width: 100%;
     background-color: #222;
     padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 24px;
 }
 
 .bubble{
@@ -71,4 +76,8 @@ html, body{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.bubble:hover{
+    background-color: #aaa9a9;
 }
