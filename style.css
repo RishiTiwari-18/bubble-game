@@ -68,6 +68,10 @@ html, body{
     gap: 24px;
 }
 
+.pannel-bottom h1{
+    color: #fff;
+}
+
 .bubble{
     background-color: #dadada;
     height: 45px;
@@ -80,4 +84,16 @@ html, body{
 
 .bubble:hover{
     background-color: #aaa9a9;
+}
+
+.overScreen{
+    position: absolute;
+    z-index: 1000;
+    color: #fff;
+    display: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
 }
